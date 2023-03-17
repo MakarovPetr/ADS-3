@@ -22,8 +22,7 @@ int cbinsearch(int *arr, int size, int value) {
         }
         if (arr[mid] > value) {
             r = mid;
-        }
-        else {
+        } else {
             l = mid;
         }
         if (l == mid && mid == (r - 1))
